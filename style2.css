@@ -1,0 +1,40 @@
+
+#Submit{
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #3B1E54;
+    height: 80vh;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+#Submit #done{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+}
+
+#Submit h4,p{
+    color: #3B1E54;
+    border: 0px solid;
+    font-family: "League Spartan";
+    text-align: center;
+}
+
+#Submit h4{
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+#Submit p{
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+#Submit #message{
+    height: 60vh;
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 20%;
+}

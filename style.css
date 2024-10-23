@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+}
+
+body, main{
+    margin: 0%;
+    padding: 0%;
+    background-color: #eeeeee;    
+    font-family: "League Spartan";
+}
+
+/* Header */
+.NavBar{
+    background-color: #3B1E54;
+    color: white;
+    margin: 0%;
+    overflow: hidden;
+    height: 120px;
+    box-shadow: 0px 0px 5px hsl(274, 7%, 38%);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Title */
+.heading{
+    float: left;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.heading h1 {
+    margin-bottom: 10px; 
+}
+
+.heading h4 {
+    margin-top: 0; 
+}
+
+/* Navigation */
+#headNav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Vertically center the links */
+    height: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+#headNav a{
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "League Spartan";
+    font-size: 1em;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#headNav a:hover{
+    font-weight: bold;
+}
+
+/* Main Page */
+#home{
+    background-color: #eeeeee;
+    height: 70%;
+    width: 120vh; 
+    display: block;
+    float: left;
+}
+
+#home .intro{
+    position: relative;
+    top: 0%;
+    left: 60px;
+}
+
+#home h4{
+    font-size: 40px;
+    margin-bottom: 0%;
+    color: hwb(274 43% 41%);
+}
+
+#home span{
+    font-size: 45px;
+    font-weight: bold;
+    color: #3B1E54;
+}
+
+#banner{
+    height: 72%;
+    position: relative;
+    left: 15%;
+}
+
+#home button{
+    background-color: #3B1E54;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    height: 42px;
+    width: 140px;
+    font-family: "League Spartan";
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#home button:hover{
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+/* Objective Section */
+
+.Objectives {
+    color: #3B1E54;
+    font-family: "League Spartan";
+    font-size: 20px;
+    text-align: center;
+}
+
+.Objectives h4{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    margin-bottom: 70px;
+}
+
+.Objectives .containers{
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 30px;
+    border: 3px solid #3B1E54;
+}
+
+.Objectives .containers .image{
+    height: 250px;
+    border-radius: 15px;
+}
+
+.Objectives .containers p{
+    text-align: center;
+    display: block;
+    width: auto;
+}
+
+/* What we do section? */
+#services h4{
+    text-align: center;
+    font-family: "League Spartan";
+    color: #3B1E54;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+
+/* 1st */
+
+#services #one{
+    height: 80%;
+}
+
+#services #one .content-right{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: #3B1E54;
+    width: 90%;
+}
+
+#services #one .content-right p{
+    font-size: 20px;
+}
+
+
+#services #one img{
+    float: left;
+    height: 76vh;
+}
+
+#services #one h5{
+    font-size: 25px;
+}
+
+/* 2nd */
+#services #Two {
+    height: 80%;
+}
+
+#services #Two .content-left {
+    position: relative;
+    right: 30px;
+    top: 30px;
+    color: #3B1E54;
+    width: 50%;
+    text-align: right; 
+    float: left;
+    margin-top: 30px;
+}
+
+#services #Two img {
+    float: right;
+    height: 76vh;
+}
+
+#services #Two h5 {
+    font-size: 25px;
+}
+
+#services #Two .content-left p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+/* Gallery */
+#Gallery {
+    text-align: center;
+    font-family: "League Spartan";
+    color: #3B1E54;
+    font-size: 25px;
+    height: 80vh;
+}
+
+#Gallery h4{
+    font-size: 40px;
+    margin: 50px;
+    position: relative;
+    top: 40px;
+}
+
+#Gallery h5{
+    font-size: 25px;
+    margin: 20px;
+}
+
+#Gallery a{
+    text-decoration: none;
+}
+
+.Card{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 2px 5px 12px rgba(59, 30, 84, 0.3);
+    border-radius: 15px;
+}
+
+.Card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Card:hover{
+    box-shadow: 8px 10px 16px rgba(59, 30, 84, 0.3);
+}
+
+#gallery-frame{
+    display: block;
+    width: 100%;
+    height: 110vh;
+    margin-top: 20px;
+    border-top: 0;
+}
+
+/* Contact form  */
+
+form{
+    display: block;
+    position: relative;
+    left: 25%;
+    height: 100vh;
+    max-width: 65%;
+    position: relative;
+}
+
+form h4{
+    font-size: 40px;
+    font-family: "League Spartan";
+    color: #3B1E54;
+    position: relative;
+    top: 25px;
+    left: 13%;
+    max-width: 60%;
+}
+
+.form{
+    padding: 7px 0px;
+}
+
+.form #name, #phone, #email{
+    width: 400px;
+    height: 30px;
+}
+
+.form #name, #phone, #email, #message{
+    border-radius: 7px;
+    border:1px solid #3B1E54;
+}
+
+.form #email{
+    position: relative;
+    left:45px;
+}
+
+.form #name{
+    position: relative;
+    left:43px;
+}
+
+.form #phone{
+    position: relative;
+    left:41px;
+}
+
+.form #message{
+    position: relative;
+    left:20px;
+}
+
+.form label{
+    font-size: 20px;
+    color: #3B1E54;
+    font-weight: 600;
+}
+
+.form button{
+    background-color: #3B1E54;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    font-family: "League Spartan";
+    font-size: 20px;
+    position: relative;
+    left: 30%;
+}
+
+.form button:hover{
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    background-color: #3B1E54;
+    color: white;
+    font-family: "League Spartan";
+    height: 300px;
+    width: auto;
+}
+
+#foot{
+    position: relative;
+    top: 15px;
+    left: 5px;
+    right: 10px;
+
+}
+
+#contactNav{
+    float: left;
+    margin-left: 100px;
+}
+
+#footNav a{
+    color: white;
+    padding: 10px 15px;
+    text-align: end;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#contactNav #title{
+    font-size: 25px;
+    padding: 0px 0px;
+    margin: 0%;
+    position: relative;
+    top: 20px;
+}
+
+#contactNav .address{
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+
+#footNav a:hover{
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+#rights{
+    color: white;
+    font-family: "League Spartan";
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+    *{
+        width: 100%;
+    }
+}

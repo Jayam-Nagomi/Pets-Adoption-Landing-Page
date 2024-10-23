@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+}
+
+#dog1{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px rgba(59, 30, 84, 0.5);
+    padding: 20px;
+}
+
+#pic{
+    text-align: center;
+}
+
+#pic img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+#content{
+    padding: 0px 20px;
+    color: #3B1E54;
+}
+
+#content h4{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#content p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#content span{
+    font-weight: bold;
+    font-size: 25px;
+}

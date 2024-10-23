@@ -1,0 +1,205 @@
+<!DOCTYPE> 
+<html>
+    <head>
+        <title>Pet Adoption Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<meta http-equiv="refresh" content="2">-->
+        <link rel="icon" href="dog.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="NavBar">
+                <div class="heading">
+                    <h1>Dogs Adoption</h1>
+                    <h4>Dont Buy Dogs adopt from Streets!</h4>
+                </div>
+                <nav id="headNav">
+                    <a href="#Home">Home</a>
+                    <a href="#Objectives">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#Gallery">Gallery</a>
+                    <a href="#Contact">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+        <br>
+
+        <!--Main Page-->
+        <main>
+
+            <section id="Home">
+                <h4 class="Intro">We are <span> #1 Free Dog Adoption</span> Service Provider</h4>
+                <p class="Intro">For decades, we've been giving dogs and pets the shelter and care they deserve, ensuring they find a safe and loving home where they can thrive.</p>
+                <a href="#Contact">
+                    <button class="Intro">Get in Touch</button>
+                </a>
+            </section>
+            <img id="banner" src="Images/home.png" alt="dog adaption image">
+            <br>
+
+            <section id="Objectives" class="Objectives">
+                <h4>Our Objectives</h4>
+                <div id="One" class="containers">
+                    <img src="Images/obj1.jpg" alt="Dog in Shelter" class="image">
+                    <p>Provide Shelter</p>
+                </div>
+                <div id="Two" class="containers">
+                    <img src="Images/obj2.jpg" alt="Caring Partner" class="image">
+                    <p>Caring Partner</p>
+                </div>
+                <div id="Three" class="containers">
+                    <img src="Images/obj3.jpg" alt="No more Starving" class="image">
+                    <p>No more Starving</p>
+                </div>
+            </section>
+
+            <section id="services">
+                <h4>What we do?</h4>
+                <div id="One" class="container">
+                    <img src="Images/one.jpg" alt="safe haven">
+                    <div class="content-right">
+                        <h5>Shelter and Care:</h5>
+                        <p>Our shelter provides a safe and nurturing environment for abandoned and neglected animals, ensuring they receive the care and attention they deserve. Each animal is given individualized care, including regular health check-ups, vaccinations, and necessary medical treatments. Our dedicated team works tirelessly to create a stress-free space where pets can feel safe, exercise, and socialize. By focusing on their emotional and physical well-being, we prepare them to meet their future families in the best possible condition, giving every pet a second chance at finding a loving home.</p>
+                    </div>
+                </div>
+                <div id="Two" class="container">
+                    <div class="content-left">
+                        <h5>Personalized Matching:</h5>
+                        <p>Our dedicated team carefully evaluates the needs and preferences of both pets and adopters, facilitating thoughtful matches that foster long-lasting relationships between families and their new furry companions.</p>
+                    </div>
+                    <img src="Images/two.jpg" alt="No more Starving" class="image">
+                </div>
+            </section>
+
+            <section id="Gallery">
+                <h4>Gallery</h4>
+                <div class="Card" id="card1">
+                    <a href="dog1.html" target="gallery-frame">
+                        <img src="Images/Barry.jpg">
+                        <h5>Barry</h5>
+                    </a>
+                </div>
+                <div class="Card" id="card2">
+                    <a href="dog2.html" target="gallery-frame">
+                        <img src="Images/Michan.jpg">
+                        <h5>Michan</h5>
+                    </a>
+                </div>
+                <div class="Card" id="card3">
+                    <a href="dog3.html" target="gallery-frame">
+                        <img src="Images/johnny.jpg">
+                        <h5>Johnny</h5>
+                    </a>
+                </div>
+            </section>    
+            <iframe id="gallery-frame" name="gallery-frame" src="dog1.html"></iframe>
+
+            <section id="Contact">
+                <form action="submit.html" method="post">
+
+                    <h4>Get in Touch with Us</h4>
+                    <div id="form">
+                        <div class="form">
+                            <label for="Name">Name </label>
+                            <input type="text" id="Name" name="Name" placeholder=" Enter your name" required> <br>
+                        </div>
+                        
+                        <div class="form">
+                            <label for="phone">Phone </label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your number" required> <br>
+                        </div>
+            
+                        <div class="form">
+                            <label for="email">Email </label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required> <br>
+                        </div>
+            
+                        <div class="form">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" cols="50" placeholder="Enter your message here.." required></textarea><br>
+                        </div>
+                            
+                        <div class="form">
+                            <input type="checkbox" id="updates" name="updates" value="yes">Receive Updates 
+                            <br>
+                        </div>
+    
+                        <div class="form">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <div id="foot">
+                <div id="contactNav">
+                    <h6 id="title">Contact Us</h6>
+                    <p class="address">Morais City</p>
+                    <p class="address">Airport</p>
+                    <p class="address">Tiruchirappalli</p>
+                    <p class="address">xyz@gmail.com</p>
+                </div>
+
+                <div id="footNav">
+                    <nav>
+                        <a href="#Home">Home</a>
+                        <a href="#Objectives">About Us</a>
+                        <a href="#services">Services</a>
+                        <a href="#Gallery">Gallery</a>
+                        <a href="#Contact">Contact Us</a>
+                    </nav>
+                </div><br>
+                <div id="rights">
+                    <p>&copy; Copyrights 2024 All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<!--
+#3B1E54
+#9B7EBD
+#D4BEE4
+#EEEEEE
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    <div>
+        <details>
+            <summary>More Dogs Listing</summary>
+            <p>Soon more dogs will be added here</p>
+        </details>
+    </div>
+    <address>
+        Organization Name: MacTavish Designs <br>
+        Web Site:
+        <a href=
+        "https://zackmactavish.github.io/MacTavish/">
+        Zack MacTavish</a><br>
+        Portland, Oregon
+    </address>
+            
+-->
